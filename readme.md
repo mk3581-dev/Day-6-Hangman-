@@ -1,38 +1,136 @@
-🪓 Hangman Game (Python)
+# 🎮 Hangman Game – Python Project
 
-A simple terminal-based implementation of the classic Hangman game written in Python.
-The player guesses letters to uncover a hidden word, while each wrong guess brings the hangman closer to completion.
+A simple **command-line Hangman game** built using Python as part of **Dr. Angela Yu's 100 Days of Code: The Complete Python Pro Bootcamp**.
 
-This project focuses on clean game logic, user-friendly input handling, and readable ASCII art for each stage of the hangman.
+This project demonstrates basic Python concepts such as loops, conditionals, lists, functions, modules, and user interaction.
 
-✨ Features
+---
 
-Random word selection from a predefined list.
+## 📌 Project Description
 
-Step-by-step ASCII hangman visuals that update with each incorrect guess.
+Hangman is a classic word-guessing game where the player tries to guess a hidden word one letter at a time.
 
-Input validation to avoid repeated or invalid guesses.
+Each incorrect guess reduces the player's remaining lives. The game ends when:
 
-Lives system tied directly to the number of hangman stages.
+* ✅ The player correctly guesses the word (Win)
+* ❌ The player runs out of lives (Lose)
 
-Clean and understandable code structure — ideal for beginners learning loops, strings, and sets.
+---
 
-📌 What You’ll Learn
+## 🚀 Features
 
-How to work with lists, sets, and strings
+* Random word selection
+* ASCII art stages for hangman visuals
+* Letter-by-letter guessing system
+* Input validation
+* Lives tracking system
+* Win/Lose game conditions
+* Console-based interface
 
-Using loops to manage game flow
+---
 
-Handling user input safely
+## 🧠 Concepts Practiced
 
-Structuring a simple command-line game
+* Python Lists
+* Loops (`for`, `while`)
+* Conditional Statements
+* Functions
+* Importing Modules
+* String Manipulation
+* User Input Handling
 
-Basic game state management (lives, win/loss conditions)
+---
 
-▶️ How to Run
+## 📂 Project Structure
 
-Install Python (3.x recommended)
+```
+hangman-project/
+│
+├── main.py              # Main game logic
+├── hangman_words.py     # Word list module
+├── hangman_art.py       # ASCII art stages and logo
+└── README.md            # Project documentation
+```
 
-Save the script as hangman.py
+---
 
-Run it in your terminal:
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/hangman-project.git
+```
+
+2. Navigate into the project folder:
+
+```bash
+cd hangman-project
+```
+
+3. Run the program:
+
+```bash
+python main.py
+```
+
+---
+
+## 🎮 How to Play
+
+1. Run the game.
+2. A hidden word will be selected randomly.
+3. Guess one letter at a time.
+4. Correct guesses reveal letters in the word.
+5. Wrong guesses reduce your remaining lives.
+6. Guess the full word before lives reach zero!
+
+---
+
+## 🖥 Example Gameplay
+
+```
+Word: _ _ _ _ _
+Guess a letter: a
+
+Correct guess!
+
+Word: _ a _ _ _
+Lives remaining: 5
+```
+
+---
+
+## 📸 Game Preview
+
+The game uses ASCII art to visually represent the hangman stages as lives decrease.
+
+---
+
+## 📚 Credits
+
+Created as part of:
+
+**100 Days of Code – The Complete Python Pro Bootcamp**
+Instructor: Dr. Angela Yu
+
+---
+
+## 🛠 Future Improvements
+
+* Add difficulty levels
+* GUI version using Tkinter or Pygame
+* Score tracking system
+* Multiplayer mode
+* Word categories
+
+---
+
+## 📄 License
+
+This project is for educational purposes.
+
+---
+
+⭐ If you like this project, feel free to star the repository!
+Author - Mohit kunwar
