@@ -13,7 +13,7 @@ Hangman is a classic word-guessing game where the player tries to guess a hidden
 Each incorrect guess reduces the player's remaining lives. The game ends when:
 
 * ✅ The player correctly guesses the word (Win)
-* ❌ The player runs out of lives (Lose)
+* ❌ The player runs out of lives (Lose).
 
 ---
 
@@ -134,4 +134,5 @@ This project is for educational purposes.
 
 ⭐ If you like this project, feel free to star the repository!
 Author - Mohit kunwar
+
 
