@@ -59,7 +59,7 @@ hangman-project/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/hangman-project.git
+git clone https://github.com/mk3581-dev/Day-6-Hangman-
 ```
 
 2. Navigate into the project folder:
@@ -134,3 +134,4 @@ This project is for educational purposes.
 
 ⭐ If you like this project, feel free to star the repository!
 Author - Mohit kunwar
+
